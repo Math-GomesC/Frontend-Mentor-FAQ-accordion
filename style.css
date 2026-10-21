@@ -8,7 +8,86 @@
     --fonte-tamanho:16px; /*paragraphs*/
     --fonte-familia-padrao: "Work Sans", sans-serif; /*Weights: 400, 600, 700*/
 }
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /*border:1px solid red; /*Teste*/
+}
 
 body{
-    background-color:var(--cor-de-);
+    background-color:var(--cor-do-fundo);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--cor-branca);
+    border-radius: 20px;
+    margin:6% 24%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+}
+
+.Titulo-do-card{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+
+.Titulo-do-card__Imagem{
+    height: 37px;
+}
+
+h1{
+    font-family: var(--fonte-familia-padrao);
+    font-weight: 700;
+    color: var(--cor-dos-titulos);
+    font-size: 45px;
+}
+
+
+.Perguntas-e-Respostas__Perguntas{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+
+.Perguntas-e-Respostas__Quebra-de-Linha{
+    opacity: 20%;
+}
+
+h2{
+    color:var(--cor-dos-titulos);
+    font-family: var(--fonte-familia-padrao);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 20px 15px 0;
+}
+
+h2:hover{
+    color:hsl(280, 100%, 71%);
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: var(--fonte-tamanho);
+    font-family: var(--fonte-familia-padrao);
+    color: var(--cor-dos-textos);
 }
