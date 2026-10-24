@@ -23,7 +23,10 @@ body{
     background-color:var(--cor-do-fundo);
     display: flex;
     justify-content: center;
-    
+    background-image:url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: 100%;
 }
 
 
@@ -34,7 +37,7 @@ article{
     flex-direction: column;
     background-color: var(--cor-branca);
     border-radius: 20px;
-    margin:6% 24%;
+    margin:9% 24% 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 30px;
 }
