@@ -5,7 +5,7 @@
     --cor-dos-titulos:hsl(292, 42%, 14%);/*Purple 950*/
     --cor-do-fundo:hsl(275, 100%, 97%);/*Purple 100*/
     --cor-branca:hsl(0, 100%, 100%);/*White*/
-    --fonte-tamanho:16px; /*paragraphs*/
+    --fonte-tamanho:22px; /*paragraphs*/
     --fonte-familia-padrao: "Work Sans", sans-serif; /*Weights: 400, 600, 700*/
 }
 /*
@@ -76,7 +76,7 @@ h2{
     color:var(--cor-dos-titulos);
     font-family: var(--fonte-familia-padrao);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     padding: 15px 20px 15px 0;
 }
 
@@ -89,8 +89,11 @@ img:hover{
     cursor: pointer;
 }
 
-p{
+.Perguntas-e-Respostas__Perguntas-Paragrafo{
     font-size: var(--fonte-tamanho);
     font-family: var(--fonte-familia-padrao);
     color: var(--cor-dos-textos);
+    margin:0 0 30px;
+    display: none;
+    
 }
